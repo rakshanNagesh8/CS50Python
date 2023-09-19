@@ -7,7 +7,7 @@ math expressions challenging the players to solve them, thereby providing an enj
 
 ### Project Structure:
 
-#### `project.py`
+#### project.py
 
 The core functionality of the Little Professor Game resides in project.py. This script contains a collection of essential helper functions responsible for input validation, level-based random number generation, mathematical operation execution, and random operation generation
 
@@ -24,7 +24,7 @@ To generate diverse and challenging math problems, the script utilizes random nu
 The `operation()` function is responsible for executing the chosen arithmetic operation on two numbers and returning the result. By encountering tricky situations such as the divide by zero problem or the recurring decimal problem, It ensures that the game continues smoothly by either returning 0 or rounding the result to three decimal places.
 
 
-#### `test_project.py`
+#### test_project.py
 
 The first test function, `test_input_check()`, focuses on the strength the input validation process. It utilizes Python's `unittest.mock` library to simulate user input during testing. The test suite covers multiple scenarios, including valid input and progressively more complex cases involving invalid inputs. This comprehensive testing ensures that the `input_check() `function robustly handles various forms of user input, maintaining game robustness during actual gameplay.
 
